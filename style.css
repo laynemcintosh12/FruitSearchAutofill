@@ -1,0 +1,47 @@
+html {
+  background: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+  /* copied from: https://cssgradient.io/gradient-backgrounds/  hope thats okay*/
+  background-attachment: fixed;
+  text-align: center;
+}
+
+input {
+  position: relative;
+  margin-top: 40vh;
+  background-color: #95abd1;
+  border-radius: 5px;
+  width: 25vw;
+}
+
+.suggestions{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  width: 25.25vw;
+  position: relative;
+  background-color:#95abd1;
+  border-left: 1.5px solid rgba(0, 0, 0, 0.5);
+  border-right: 1.5px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+ul li {
+  
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: start;
+  padding-left: 3px;
+  height: 22px;
+  padding-top: 6px;
+}
+
+ul li:hover {
+  background-color: #7998cd;
+}
